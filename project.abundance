@@ -7,8 +7,8 @@
   "ioValues": [
     {
       "name": "Height",
-      "ioValue": 30,
-      "currentEquation": "30"
+      "ioValue": 60,
+      "currentEquation": "60"
     }
   ],
   "topLevel": true,
@@ -93,7 +93,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 30
+          "ioValue": 60
         }
       ]
     },
@@ -109,8 +109,8 @@
         },
         {
           "name": "xDist",
-          "ioValue": -37.5,
-          "currentEquation": "-75/2"
+          "ioValue": -43,
+          "currentEquation": "-86/2"
         },
         {
           "name": "yDist",
@@ -118,7 +118,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 3
         }
       ]
     },
@@ -134,8 +134,8 @@
         },
         {
           "name": "xDist",
-          "ioValue": 37.5,
-          "currentEquation": "75/2"
+          "ioValue": 43,
+          "currentEquation": "86/2"
         },
         {
           "name": "yDist",
@@ -143,7 +143,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 3
         }
       ]
     },
@@ -160,8 +160,8 @@
         },
         {
           "name": "Item Name",
-          "ioValue": "U Bolt",
-          "currentEquation": "U Bolt"
+          "ioValue": "Home Depot U Bolt",
+          "currentEquation": "Home Depot U Bolt"
         },
         {
           "name": "Number Needed",
@@ -169,19 +169,18 @@
         },
         {
           "name": "Cost (USD)",
-          "ioValue": 14.99
+          "ioValue": 4.99
         },
         {
           "name": "Source Link",
-          "ioValue": "https://amzn.to/3OM9QYm",
-          "currentEquation": "https://amzn.to/3OM9QYm"
+          "ioValue": ""
         }
       ],
       "BOMitem": {
-        "BOMitemName": "U Bolt",
+        "BOMitemName": "Home Depot U Bolt",
         "numberNeeded": 1,
-        "costUSD": 14.99,
-        "source": "https://amzn.to/3OM9QYm"
+        "costUSD": 4.99,
+        "source": ""
       }
     },
     {
@@ -289,7 +288,7 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.11243386243386243,
+          "x": 0.11574074074074073,
           "y": 0.2972222222222222,
           "uniqueID": "id-588",
           "ioValues": [
@@ -317,7 +316,8 @@
             },
             {
               "name": "height",
-              "ioValue": 10
+              "ioValue": 8.5,
+              "currentEquation": "8.5"
             }
           ]
         },
@@ -333,8 +333,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": -47.5,
-              "currentEquation": "-95/2"
+              "ioValue": -60,
+              "currentEquation": "-60"
             },
             {
               "name": "yDist",
@@ -359,7 +359,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -57
+              "ioValue": -60
             },
             {
               "name": "yDist",
@@ -374,8 +374,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.1078042328042328,
-          "y": 0.9388888888888888,
+          "x": 0.11574074074074073,
+          "y": 0.8527777777777777,
           "uniqueID": "id-592",
           "ioValues": [
             {
@@ -440,7 +440,8 @@
             },
             {
               "name": "height",
-              "ioValue": 10
+              "ioValue": 8.5,
+              "currentEquation": "8.5"
             }
           ]
         },
@@ -477,7 +478,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-extrude-cut-cut-circle-47.5-circle-39-move-rectangle-500-500-250-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--95-0-0",
+                "geometry": "move-extrude-cut-cut-circle-47.5-circle-39-move-rectangle-500-500-250-0-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8.5--95-0-0",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -504,7 +505,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-extrude-rectangle-70-8.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--57--43.25-0",
+                "geometry": "move-extrude-rectangle-70-8.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8.5--60--43.25-0",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -531,7 +532,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-extrude-rectangle-70-8.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--47.5-43.25-0",
+                "geometry": "move-extrude-rectangle-70-8.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8.5--60-43.25-0",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -702,8 +703,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.7625661375661376,
-          "y": 0.7583333333333333,
+          "x": 0.7572751322751322,
+          "y": 0.7611111111111112,
           "uniqueID": "id-605",
           "name": "Fillet-",
           "ioValues": [
@@ -713,7 +714,8 @@
             },
             {
               "name": "Radius",
-              "ioValue": 4.8
+              "ioValue": 4,
+              "currentEquation": "4"
             }
           ],
           "topLevel": false,
@@ -786,7 +788,7 @@
               "ioValues": [
                 {
                   "name": "radius",
-                  "ioValue": 4.8
+                  "ioValue": 4
                 }
               ],
               "codeVersion": 1,
@@ -959,14 +961,14 @@
           "ap2ID": "id-605"
         },
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-597",
-          "ap2ID": "id-587"
-        },
-        {
           "ap2Name": "geometry1",
           "ap1ID": "id-598",
           "ap2ID": "id-594"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-605",
+          "ap2ID": "id-587"
         }
       ],
       "fileTypeVersion": 1
@@ -1005,17 +1007,19 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.20304232804232802,
-          "y": 0.5638888888888889,
+          "x": 0.20965608465608468,
+          "y": 0.5805555555555555,
           "uniqueID": "id-618",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 104
+              "ioValue": 109,
+              "currentEquation": "109"
             },
             {
               "name": "y length",
-              "ioValue": 23
+              "ioValue": 18,
+              "currentEquation": "18"
             }
           ]
         },
@@ -1031,8 +1035,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": -42,
-              "currentEquation": "-104/2+10"
+              "ioValue": -44.5,
+              "currentEquation": "-109/2+10"
             },
             {
               "name": "yDist",
@@ -1056,8 +1060,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": 42,
-              "currentEquation": "104/2-10"
+              "ioValue": 44.5,
+              "currentEquation": "109/2-10"
             },
             {
               "name": "yDist",
@@ -1091,7 +1095,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-circle-10--42-0-0",
+                "geometry": "move-circle-10--44.5-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1118,7 +1122,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-circle-10-42-0-0",
+                "geometry": "move-circle-10-44.5-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -1192,8 +1196,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": -38.5,
-              "currentEquation": "-77/2"
+              "ioValue": -41.5,
+              "currentEquation": "-83/2"
             },
             {
               "name": "yDist",
@@ -1217,8 +1221,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": 38.5,
-              "currentEquation": "77/2"
+              "ioValue": 41.5,
+              "currentEquation": "83/2"
             },
             {
               "name": "yDist",
@@ -1239,7 +1243,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-shrinkWrap-fuse-fuse-fuse-move-circle-5--3--1-0-move-circle-5--3-1-0-move-circle-5-3--1-0-move-circle-5-3-1-0-50-38.5-0-0",
+                "geometry": "move-shrinkWrap-fuse-fuse-fuse-move-circle-5--3--1-0-move-circle-5--3-1-0-move-circle-5-3--1-0-move-circle-5-3-1-0-50-41.5-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "color": "#aad7f2",
@@ -1270,7 +1274,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-shrinkWrap-fuse-fuse-fuse-move-circle-5--3--1-0-move-circle-5--3-1-0-move-circle-5-3--1-0-move-circle-5-3-1-0-50--38.5-0-0",
+                "geometry": "move-shrinkWrap-fuse-fuse-fuse-move-circle-5--3--1-0-move-circle-5--3-1-0-move-circle-5-3--1-0-move-circle-5-3-1-0-50--41.5-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "color": "#aad7f2",
